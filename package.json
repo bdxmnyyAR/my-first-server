@@ -1,10 +1,12 @@
 {
-"name": "my-first-server",
-6.
-"version": "1.0.0",
-7.
-"scripts": {
-8.
-"start": "node server.js"
-9. }
-10. }
+  "name": "my-web-server",
+  "version": "1.0.0",
+  "description": "Basic Web Server for Assignment",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
