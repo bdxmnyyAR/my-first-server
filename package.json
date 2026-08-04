@@ -1,12 +1,10 @@
 {
-  "name": "my-web-server",
-  "version": "1.0.0",
-  "description": "Basic Web Server for Assignment",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
-  "dependencies": {
-    "express": "^4.19.2"
-  }
+"name": "my-first-server",
+"version": "1.0.0",
+"scripts": {
+"start": "node server.js"
+},
+"dependencies": {
+"pg": "^8.11.3"
+}
 }
